@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO WEB</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMDd7I5vWkXn2OVK5A4j6kTr/sJ+hu9KYRR10vX" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header class="navBar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 48 48">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M30.459 36.447a7.6 7.6 0 0 1-6.606 3.836h0a7.6 7.6 0 0 1-7.602-7.602v-4.942a7.6 7.6 0 0 1 7.602-7.602h0a7.6 7.6 0 0 1 7.603 7.602v2.47H16.25m.294-10.072c-1.952 1.992-3.196 4.298-3.196 8.98c-3.56-.404-7.848-2.305-7.848-6.796S12.944 9.375 15.533 7.717C13.429 11.722 12.7 15.282 12.7 17.75s3.843 2.387 3.843 2.387m14.913 0c1.952 1.992 3.196 4.298 3.196 8.98c3.56-.404 7.848-2.305 7.848-6.796S35.056 9.375 32.467 7.717c2.104 4.005 2.832 7.565 2.832 10.033s-3.843 2.387-3.843 2.387"/>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#SobreMi">Sobre mi <span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Estudios">Estudios <span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experiencia">Experiencia <span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">Proyectos <span></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contactos">Contactos <span></span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-icons navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/yourprofile" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://linkedin.com/in/yourprofile" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:yourmail@example.com" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <section class="Precentacion" id="Precentation">
+        <article class="Img-Precentation-name">
+            <div class="container">
+            <p class="hola">¡Hola!, soy </p>
+            <p class="title-Maximiliano">Maximiliano Nievas</p>
+            <p class="queHago">full stack development javascript</p>
+            </div>
+        </article>
+    </section>
+    <section class="aboutMy" id="SobreMi">
+        <div class="image-container">
+            <img src="/src/assets/pngegg.png" alt="Cohete despegando" class="imagen-salida">
+        </div>
+        <article class="conteinerAbout">
+            <p class="titleAbout">Sobre mi</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempore dolore cum nostrum, voluptatibus neque earum dolor velit vitae, praesentium consequuntur minus repellat quidem provident magni temporibus vel eligendi iusto!</p>
+            <div class="button-container">
+                <button style="background-color: #ff6347; border-color: #ff6347; color: white;" class="btn btn-primary" type="button" id="downloadCvButton">
+                <i class="fas fa-file-alt"></i> Ver CV
+            </button>
+            </div>
+        </article>
+
+        <canvas id="starfield"></canvas>
+    </section>
+    <section class="contactos" id="Contactos">
+        <article class="containerContact">
+            <p class="titleContacto">CONTACTOS</p>
+            <div class="containerContactos">
+                <div class="contenedorBlanco">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <a href=""  target="_blank" class="btn btn-github">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <a href="https://www.linkedin.com/in/maxi-nievas-590441263/"  target="_blank" class="btn btn-linkedin">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <a href="mailto:fnievas68@gmail.com"  target="_parent" class="btn btn-gmail">
+                                    <i class="fas fa-envelope"></i> Gmail
+                                </a>
+                            </div>
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <a href="https://www.instagram.com/maxinievas01/"  target="_blank" class="btn btn-instagram">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./IndexColor.js"></script>
+    <script src="./botoncvScript.js"></script>
+</body>
+</html>
